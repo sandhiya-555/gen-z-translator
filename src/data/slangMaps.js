@@ -182,5 +182,3 @@ export const genAlphaMap = {
   feedback: "vibe check ☑️"
 };
 
-export const reverseGenZMap = Object.fromEntries(Object.entries(genZMap).map(([k, v]) => [v.toLowerCase(), k]));
-export const reverseGenAlphaMap = Object.fromEntries(Object.entries(genAlphaMap).map(([k, v]) => [v.toLowerCase(), k]));
