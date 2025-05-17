@@ -87,11 +87,17 @@ export const genZMap = {
   bossy: "big vibe",
   overtime: "extra grind",
   email: "e-note",
-  feedback: "tea ☕"
+  feedback: "tea ☕",
+  loves: "big simp vibes ❤️‍🔥",
+loved: "big simp vibes ❤️‍🔥",
+hungry: "starvin’ 😩", 
 };
 
 export const genAlphaMap = {
   happy: "buzzin’ 🐝",
+  loves: "heart eyes 😍",
+loved: "heart eyes 😍",
+hungry: "so hangry 🤤",
   amazing: "chef’s kiss 👌🍳",
   wait: "hold up ⏰",
   made: "nailed it 💅",
