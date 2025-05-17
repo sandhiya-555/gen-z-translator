@@ -2,7 +2,6 @@ import { useState } from 'react';
 import './App.css';
 import InputBox from './components/InputBox';
 import TranslationOutput from './components/TranslationOutput';
-import MemeDisplay from './components/MemeDisplay';
 import CopyShare from './components/CopyShare';
 import { genZMap, genAlphaMap } from './data/slangMaps';
 
@@ -33,7 +32,7 @@ function App() {
       {/* You can add generation switcher if you want */}
       <InputBox onTranslate={handleTranslate} />
       <TranslationOutput translation={translation} />
-      <MemeDisplay input={inputText} />
+  
       {translation && <CopyShare translation={translation} />}
     </div>
   );
